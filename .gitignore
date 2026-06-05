@@ -1,0 +1,41 @@
+# Email configuration (contains sensitive credentials)
+config/email.php
+
+# Environment files
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies
+vendor/
+node_modules/
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Uploads (if you have user uploads)
+uploads/private/
+
+# Database backups
+*.sql.backup
+*.sql.bak
+backup/
